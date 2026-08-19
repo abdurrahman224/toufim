@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+
+/* ─── Brand Design Tokens → Tailwind Utilities (v4 @theme) ─────────────────── */
+@theme {
+  /* Primary brand — orange */
+  --color-primary: #f48525;
+  --color-primary-700: #e07320;
+
+  /* Surface & layout */
+  --color-surface: #f8f7f5;
+  --color-footer-bg: #221810;
+
+  /* Semantic text */
+  --color-heading: #0f172a;
+  --color-body: #475569;
+  --color-muted: #64748b;
+  --color-subtle: #94a3b8;
+  --color-form-label: #334155;
+  --color-placeholder: #6b7280;
+
+  /* Border */
+  --color-border: #e2e8f0;
+
+  /* Third-party */
+  --color-whatsapp: #25d366;
+}
+
+/* ─── Raw CSS custom properties (for rgba() / calc() usage) ─────────────────── */
+:root {
+  --c-primary: #f48525;
+  --c-primary-hover: #e07320;
+  --c-heading: #0f172a;
+  --c-body: #475569;
+  --c-surface: #f8f7f5;
+}
+
+/* ─── Animations ────────────────────────────────────────────────────────────── */
+@keyframes nav-arrow {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+}
+
+@layer utility {
+  .animate-nav-arrow {
+    animation: nav-arrow 1.2s ease-in-out infinite;
+  }
+}
+
+/* ─── Global button / .btn hover lift ────────────────────────────────────────
+   Unlayered CSS wins over every @layer (including Tailwind utilities).
+   Covers all <button> elements automatically; add the .btn class to any
+   <Link> or <a> that is styled as a CTA button.
+   ─────────────────────────────────────────────────────────────────────────── */
+button,
+.btn {
+  transition-property:
+    color, background-color, border-color, text-decoration-color, fill, stroke,
+    opacity, transform, box-shadow, row-gap, column-gap;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+button:hover:not(:disabled),
+.btn:hover {
+  transform: translateY(-2px) scale(1.015);
+}
+
+button:active:not(:disabled),
+.btn:active {
+  transform: translateY(0) scale(0.97);
+  transition-duration: 80ms;
+}

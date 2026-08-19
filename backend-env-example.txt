@@ -1,0 +1,14 @@
+# Backend .env file must include:
+
+# Frontend URL (where Stripe will redirect back)
+FRONTEND_URL=http://localhost:3000
+
+# Stripe secret key
+STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key_here
+
+# Example values:
+# Development:
+# FRONTEND_URL=http://localhost:3000
+
+# Production:
+# FRONTEND_URL=https://your-production-domain.com
