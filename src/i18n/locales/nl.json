@@ -1,0 +1,1762 @@
+﻿{
+  "nav": {
+    "home": "Thuis",
+    "about": "Over ons",
+    "services": "Diensten",
+    "contact": "Contact",
+    "login": "Inloggen",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "loginPage": {
+    "backToHome": "Terug naar home",
+    "heading": "Inloggen op uw account",
+    "subheading": "Voer uw gegevens in om door te gaan naar het dashboard.",
+    "emailLabel": "E-mailadres",
+    "emailPlaceholder": "beheerder@buildright.com",
+    "emailRequired": "E-mail is verplicht.",
+    "emailInvalid": "Voer een geldig e-mailadres in.",
+    "passwordLabel": "Wachtwoord",
+    "passwordPlaceholder": "••••••••",
+    "passwordRequired": "Wachtwoord is verplicht.",
+    "showPassword": "Wachtwoord tonen",
+    "hidePassword": "Wachtwoord verbergen",
+    "signingIn": "Bezig met inloggen…",
+    "signIn": "Inloggen op Dashboard"
+  },
+  "admin": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "leads": "Leidt",
+      "giveaways": "Weggeefacties",
+      "coupons": "Coupons",
+      "vouchers": "Vouchers",
+      "services": "Services",
+      "institutions": "Instellingen"
+    },
+    "services": {
+      "title": "Services",
+      "createButton": "Nieuwe service",
+      "loading": "Services worden geladen...",
+      "empty": "Geen services gevonden.",
+      "error": "Services konden niet worden geladen.",
+      "viewTitle": "Service details",
+      "createTitle": "Nieuwe service",
+      "editTitle": "Service bewerken",
+      "form": {
+        "name": "Service naam",
+        "category": "Categorie",
+        "description": "Beschrijving",
+        "price": "Basisprijs",
+        "banner": "Banner image",
+        "gallery": "Galerij",
+        "upload": "Upload afbeelding",
+        "save": "Opslaan"
+      }
+    },
+    "actions": {
+      "view": "Bekijken",
+      "delete": "Verwijderen",
+      "edit": "Bewerken",
+      "export": "Exporteren",
+      "add": "Toevoegen"
+    },
+    "dashboard": {
+      "header": {
+        "title": "Leadbeheer",
+        "subtitle": "Beoordeel en beheer binnenkomende renovatie- en serviceofferteaanvragen."
+      },
+      "stats": [
+        {
+          "id": "leads",
+          "label": "Totaal aantal leads",
+          "value": "1.284",
+          "trend": "+12% deze maand",
+          "icon": "ChartNoAxesColumnIncreasing",
+          "trendIcon": "TrendingUp"
+        },
+        {
+          "id": "revenue",
+          "label": "Inkomsten deze maand",
+          "value": "€ 45.200",
+          "trend": " +5% versus doelstelling",
+          "icon": "WalletCards",
+          "trendIcon": "TrendingUp"
+        },
+        {
+          "id": "campaigns",
+          "label": "Actieve winacties",
+          "value": "1",
+          "trend": "1 eindigt binnenkort",
+          "icon": "CalendarDays"
+        },
+        {
+          "id": "sold",
+          "label": "Kaarten verkocht",
+          "value": "842",
+          "trend": "+18% groei",
+          "icon": "Ticket",
+          "trendIcon": "TrendingUp"
+        }
+      ],
+      "campaign": {
+        "title": "Badkamer renovatie winactie",
+        "status": "ACTIEF",
+        "description": "Win een complete luxe renovatie van de grote badkamer ter waarde van €15.000.",
+        "soldLabel": "Kaarten verkocht",
+        "soldPercent": "84,2%",
+        "progress": 84.2,
+        "soldMeta": "842 van de 1000 verkochte kaartjes",
+        "daysLeft": "12 dagen resterend",
+        "analyticsCta": "Bekijk Analytics",
+        "image": {
+          "alt": "Voorbeeld van een luxe badkamer",
+          "fallbackTitle": "Luxe badkamer"
+        }
+      },
+      "quickActions": {
+        "title": "Snelle acties",
+        "items": [
+          {
+            "id": "create",
+            "label": "Maak een weggeefactie",
+            "icon": "CirclePlus",
+            "variant": "primary"
+          },
+          {
+            "id": "voucher",
+            "label": "Bon genereren",
+            "icon": "Ticket",
+            "variant": "secondary"
+          },
+          {
+            "id": "export",
+            "label": "Leadsrapport exporteren",
+            "icon": "Download",
+            "variant": "ghost"
+          }
+        ],
+        "tip": {
+          "label": "RECENTE TIP",
+          "text": "\"Gepersonaliseerde vervolgacties verhogen de conversieratio's met tot wel 35%.\""
+        }
+      },
+      "statusOptions": [
+        {
+          "value": "In behandeling",
+          "tone": "warning",
+          "bgColor": "bg-[#FEF3C7]",
+          "textColor": "text-[#D97706]"
+        },
+        {
+          "value": "Gecontacteerd",
+          "tone": "info",
+          "bgColor": "bg-[#E6EEFF]",
+          "textColor": "text-[#3B82F6]"
+        },
+        {
+          "value": "Voltooid",
+          "tone": "success",
+          "bgColor": "bg-[#DCFCE7]",
+          "textColor": "text-[#22C55E]"
+        }
+      ],
+      "export": {
+        "fileNamePrefix": "leads-report",
+        "csvHeaders": ["Name", "Email", "Service", "Date", "Status"]
+      },
+      "leadsTable": {
+        "title": "Recente offerteaanvragen",
+        "viewAll": "Bekijk alle leads",
+        "mobileLabels": {
+          "date": "Date",
+          "status": "Status"
+        },
+        "columns": [
+          "KLANTNAAM",
+          "SERVICETYPE",
+          "DATUM",
+          "STATUS",
+          "ACTIE"
+        ],
+        "rows": [
+          {
+            "id": "lead-1",
+            "initials": "JS",
+            "name": "Jane Smit",
+            "service": "Keuken renovatie",
+            "date": "24 oktober 2023",
+            "status": "In behandeling",
+            "statusTone": "warning"
+          },
+          {
+            "id": "lead-2",
+            "initials": "MW",
+            "name": "Mark Wilson",
+            "service": "Buitenschilderwerk",
+            "date": "23 oktober 2023",
+            "status": "Gecontacteerd",
+            "statusTone": "info"
+          },
+          {
+            "id": "lead-3",
+            "initials": "RL",
+            "name": "Robert Lowe",
+            "service": "Hardhouten vloeren",
+            "date": "22 oktober 2023",
+            "status": "Voltooid",
+            "statusTone": "success"
+          },
+          {
+            "id": "lead-4",
+            "initials": "BEN",
+            "name": "Alice Molenaar",
+            "service": "Volledige woning Reno",
+            "date": "21 oktober 2023",
+            "status": "In behandeling",
+            "statusTone": "warning"
+          }
+        ]
+      }
+    },
+    "vouchers": {
+      "newVoucherPage": {
+        "breadcrumb": {
+          "settings": "Settings",
+          "title": "MAAK EEN NIEUWE BON"
+        },
+        "defaults": {
+          "code": "AMBER-FALL-24",
+          "percentage": "20",
+          "handle": "alex_builds",
+          "usageLimit": "02",
+          "expires": "12/31/2026"
+        },
+        "header": {
+          "title": "MAAK EEN NIEUWE BON",
+          "subtitle": "Partnerprikkels en trackingcodes configureren.",
+          "saveButton": "Opslaan als concept",
+          "publishButton": "Voucher maken"
+        },
+        "voucherData": {
+          "title": "Vouchergegevens",
+          "code": "Voucher Code",
+          "generateBtn": "Generate",
+          "discountType": "KORTINGSTYPE",
+          "discountValue": "Discount Value",
+          "discountPlaceholder": "20",
+          "percentageSymbol": "%",
+          "percentageOption": "Percentage (%)",
+          "fixedAmountOption": "Fixed Amount (EUR)"
+        },
+        "usageAndLimits": {
+          "title": "Gebruik en limieten",
+          "usageLimit": "Usage Limit",
+          "usageLimitValue": "02",
+          "expiryDate": "Expiration Date",
+          "expiryValue": "12/31/2026"
+        },
+        "influencerProfile": {
+          "title": "Beïnvloeder profiel",
+          "name": "NAAM VAN BEÏNVLOEDER",
+          "namePlaceholder": "e.g. Alex Henderson",
+          "handle": "SOCIAAL HANDEL",
+          "handlePlaceholder": "@alex_builds"
+        },
+        "preview": {
+          "title": "LIVE VOUCHER VOORBEELD",
+          "header": "PARTNERVOUCHER",
+          "status": "ACTIEF",
+          "discount": "UIT GESELECTEERDE PROJECTEN",
+          "codeLabel": "INWISSELCODE",
+          "influencerLabel": "Partner",
+          "validThru": "Valid Thru Dec 31, 2024"
+        },
+        "projection": {
+          "title": "Campagneprojectie",
+          "conversionsLabel": "EST. CONVERSIES",
+          "conversionsValue": "130-150",
+          "budgetLabel": "Budget Utilization",
+          "budgetValue": "$4,200"
+        }
+      },
+      "dashboardPage": {
+        "header": {
+          "title": "Voucherbeheer",
+          "subtitle": "Beheer influencer-partnerschappen en promotiekortingscampagnes.",
+          "createButton": "Maak een nieuwe voucher"
+        },
+        "stats": [
+          {
+            "id": "totalDiscountsApplied",
+            "title": "Totale korting toegepast",
+            "trend": "",
+            "trendLabel": "",
+            "value": "€ 0"
+          },
+          {
+            "id": "activeVouchers",
+            "title": "Actieve vouchers",
+            "trendLabel": "",
+            "value": "0",
+            "activeLabel": ""
+          },
+          {
+            "id": "averageDiscountPerOrder",
+            "title": "Gemiddelde korting per bestelling",
+            "trend": "",
+            "trendLabel": "",
+            "value": "€ 0"
+          },
+          {
+            "id": "ordersUsingVouchers",
+            "title": "Bestellingen met voucher",
+            "trend": "",
+            "trendLabel": "",
+            "value": "0"
+          }
+        ],
+        "table": {
+          "columns": ["Voucher code", "Korting", "Gebruik Aantal", "Status", "Vervaldatum Datum", "Acties"],
+          "statusOptions": ["Alle status", "Actief", "Verlopen"],
+          "sortOptions": ["Sorteer op: Nieuwste", "Sorteer op: Oudste"],
+          "pagination": "Toont 1–10 van 124 vouchers",
+          "rows": [
+            {
+              "id": 1,
+              "code": "MIKE10",
+              "influencer": "Mike Henderson",
+              "initials": "MH",
+              "color": "#6366f1",
+              "discount": "10% korting",
+              "used": 82,
+              "total": 100,
+              "status": "Actief",
+              "expires": "24 december 2024"
+            },
+            {
+              "id": 2,
+              "code": "SAVE20",
+              "influencer": "Sarah Jenkins",
+              "initials": "SJ",
+              "color": "#ec4899",
+              "discount": "20% korting",
+              "used": 45,
+              "total": 250,
+              "status": "Actief",
+              "expires": "15 januari 2025"
+            },
+            {
+              "id": 3,
+              "code": "WINTER15",
+              "influencer": "David Chen",
+              "initials": "DC",
+              "color": "#f59e0b",
+              "discount": "15% korting",
+              "used": 100,
+              "total": 100,
+              "status": "Verlopen",
+              "expires": "30 oktober 2023"
+            },
+            {
+              "id": 4,
+              "code": "BUILD5",
+              "influencer": "BuildCorp Verwijzing",
+              "initials": "BC",
+              "color": "#1e293b",
+              "discount": "€ 500 Plat",
+              "used": 12,
+              "total": 500,
+              "status": "Actief",
+              "expires": "01 maart 2025"
+            }
+          ]
+        }
+      },
+      "liveVoucherCard": {
+        "header": {
+          "type": "Partnervoucher",
+          "status": "ACTIEF"
+        },
+        "subtitle": "Uit geselecteerde\nprojecten",
+        "codeLabel": "Inwisselcode",
+        "partnerLabel": "Partner",
+        "validUntilLabel": "Geldig tot",
+        "validUntilValue": "31 december 2024",
+        "fallbackName": "Amber Schreeuw",
+        "fallbackHandle": "alex_builds",
+        "projectionTitle": "⚡ Campagneprojectie",
+        "conversionsLabel": "Est. conversies",
+        "budgetLabel": "Begrotingsgebruik"
+      },
+      "statusBadge": {
+        "active": "Actief",
+        "expired": "Verlopen",
+        "draft": "Concept"
+      },
+      "progressBar": {
+        "percentage": "%"
+      },
+      "mobileLabels": {
+        "discount": "KORTING",
+        "usageCount": "GEBRUIK AANTAL",
+        "expiryDate": "VERVALDATUM",
+        "status": "Status"
+      }
+    },
+    "settings": {
+      "dashboard": {
+        "header": {
+          "title": "Instellingen",
+          "subtitle": "Beheer diensten, giveaways, vouchers en batchbeheer."
+        },
+        "actions": [
+          {
+            "id": "service",
+            "icon": "HousePlus",
+            "title": "Create New Service",
+            "description": "Voeg een nieuwe bouwcategorie of onderhoudslaag toe aan de catalogus.",
+            "actionText": "Initialiseren",
+            "colorClass": "text-[#F48525]",
+            "bgColor": "bg-orange-50"
+          },
+          {
+            "id": "giveaway",
+            "icon": "Gift",
+            "title": "Start New Giveaway",
+            "description": "Lanceer een promotie-evenement voor platformgebruikers en apparatuur.",
+            "actionText": "Lancering Evenement",
+            "colorClass": "text-[#0D9488]",
+            "bgColor": "bg-emerald-50"
+          },
+          {
+            "id": "voucher",
+            "icon": "Wallet",
+            "title": "Issue Vouchers",
+            "description": "Genereer batchcodes voor zakelijke partners en bulkcredits.",
+            "actionText": "Genereer",
+            "colorClass": "text-[#F48525]",
+            "bgColor": "bg-orange-50"
+          }
+        ],
+        "serviceOverview": {
+          "title": "Service List Overview",
+          "viewAll": "All Services"
+        },
+        "serviceTable": {
+          "columns": ["Dienstnaam", "Categorie", "Status", "Acties"],
+          "rows": [
+            {
+              "name": "Fundering gieten",
+              "id": "SRV-284",
+              "category": "Kernstructurering",
+              "status": "LIVE"
+            },
+            {
+              "name": "Steigers opstelling",
+              "id": "SRV-551",
+              "category": "Veiligheid en toegang",
+              "status": "ONDERHOUD"
+            }
+          ]
+        },
+        "activeVouchers": {
+          "title": "Active Vouchers",
+          "addButton": "Toevoegen",
+          "batchManagement": "Batchbeheer",
+          "items": [
+            {
+              "label": "PROMOTIEC",
+              "code": "AMBER-SUMMER-24",
+              "color": "bg-[#F48525]"
+            },
+            {
+              "label": "AANNEMER",
+              "code": "TRESTLE-VIP-10",
+              "color": "bg-[#CBD5E1]"
+            }
+          ]
+        }
+      },
+      "addService": {
+        "breadcrumb": {
+          "settings": "Services",
+          "title": "Nieuwe dienst toevoegen"
+        },
+        "header": {
+          "title": "Nieuwe dienst toevoegen",
+          "description": "Configureer een nieuw architectuur- of onderhoudsaanbod voor het klantendashboard. Zorg voor precisie in prijzen en structurele categorietoewijzing."
+        },
+        "buttons": {
+          "draft": "Concept opslaan",
+          "publish": "Publiceer nu"
+        },
+        "specification": {
+          "title": "Servicespecificatie",
+          "icon": "Info",
+          "serviceName": "Dienstnaam",
+          "serviceNamePlaceholder": "e.g. Renovatie",
+          "displayName": "E.G. RENOVATIE VAN DE MASTERSUITE",
+          "displayNamePlaceholder": "e.g. Renovatie",
+          "description": "Dienstbeschrijving",
+          "descriptionPlaceholder": "Gedetailleerde uitsplitsing..."
+        },
+        "portfolio": {
+          "title": "Dienstenportfolio",
+          "description": "Upload voor/na visuele markeringen met hoge resolutie.",
+          "maxSize": "MAX 10MB/IMG",
+          "dropzoneText": "Plaats hier visuele afbeeldingen",
+          "dropzoneFormat": "PNG, JPG of WebP",
+          "imageAlt": "Service portfolio image"
+        },
+        "pricing": {
+          "title": "Prijzen",
+          "icon": "WalletCards",
+          "basePrice": "Basisprijs (EUR)",
+          "pricePlaceholder": "00",
+          "info": "Dit fungeert als de minimumprijs. Definitieve schattingen worden berekend per projectomvang in de site audit."
+        },
+        "preview": {
+          "label": "Voorbeeld van klantdashboard",
+          "serviceName": "Master Suite Remodel",
+          "description": "Volledige revisie van uw hoofdwoonruimtemet architectonische precisie en...",
+          "price": "€ 4.999,00",
+          "startingFrom": "Beginnend om"
+        }
+      },
+      "createVoucher": {
+        "breadcrumb": {
+          "dashboard": "Vouchers",
+          "title": "Issue Vouchers"
+        },
+        "header": {
+          "title": "Issue Vouchers",
+          "description": "Partnerprikkels en trackingcodes configureren."
+        },
+        "buttons": {
+          "draft": "Opslaan als concept",
+          "create": "Voucher maken"
+        },
+        "voucherData": {
+          "title": "Vouchergegevens",
+          "icon": "Ticket",
+          "code": "Voucher Code",
+          "codePlaceholder": "AMBER-FALL-24",
+          "generateBtn": "Generate",
+          "discountType": "KORTINGSTYPE",
+          "discountValue": "Discount Value",
+          "discountPlaceholder": "20",
+          "percentageSymbol": "%"
+        },
+        "usageAndLimits": {
+          "title": "Gebruik en limieten",
+          "icon": "Clock",
+          "usageLimit": "Usage Limit",
+          "usageLimitValue": "02",
+          "expirationDate": "Expiration Date",
+          "expirationValue": "12/31/2026"
+        },
+        "influencer": {
+          "title": "Beïnvloeder profiel",
+          "icon": "UserCheck",
+          "name": "NAAM VAN BEÏNVLOEDER",
+          "namePlaceholder": "e.g. Alex Henderson",
+          "handle": "SOCIAAL HANDEL",
+          "handlePlaceholder": "@alex_builds"
+        },
+        "preview": {
+          "title": "LIVE VOUCHER VOORBEELD",
+          "badge": "PARTNERVOUCHER",
+          "status": "ACTIEF",
+          "discount": "20%",
+          "discountDescription": "UIT GESELECTEERDE PROJECTEN",
+          "codeLabel": "INWISSELCODE",
+          "validThru": "Valid Thru Dec 31, 2024"
+        },
+        "projection": {
+          "title": "Campagneprojectie",
+          "icon": "TrendingUp",
+          "conversions": "EST. CONVERSIES",
+          "conversionsValue": "130-150",
+          "budget": "Budget Utilization",
+          "budgetValue": "$4,200"
+        }
+      },
+      "launchGiveaway": {
+        "breadcrumb": {
+          "dashboard": "Giveaways",
+          "title": "Start New Giveaway"
+        },
+        "header": {
+          "title": "Start New Giveaway",
+          "description": "Configure structural details for your promotional draw. Ensure all ticket allocation metrics are verified before publishing."
+        },
+        "buttons": {
+          "draft": "Concept opslaan",
+          "publish": "Publiceer nu"
+        },
+        "campaignDetails": {
+          "title": "Campaign Details",
+          "icon": "SquarePen",
+          "campaignTitle": "Titel van de weggeefactie",
+          "campaignTitlePlaceholder": "e.g., Win a Full Bathroom Renovation",
+          "description": "Rich Text Description",
+          "descriptionPlaceholder": "Describe the prize, structural work included, and materials used..."
+        },
+        "ticketSales": {
+          "title": "Copuons",
+          "icon": "Ticket",
+          "price": "Ticketprijs (€)",
+          "priceValue": "€ 15.00",
+          "totalTickets": "Totaal aantal beschikbare tickets",
+          "totalTicketsValue": "5000"
+        },
+        "timeline": {
+          "title": "Tijdlijn",
+          "icon": "Calendar",
+          "drawDate": "Datum trekking",
+          "drawTime": "Trektijd (UTC)"
+        },
+        "media": {
+          "title": "Promotionele media",
+          "uploadText": "Klik om de omslagfoto te uploaden",
+          "uploadHint": "PNG of JPG met hoge resolutie (max. 5 MB)"
+        },
+        "revenueProjection": {
+          "title": "Omzetprognose",
+          "icon": "WalletCards",
+          "maxProfit": "Maximale brutowinst",
+          "maxProfitValue": "€75,000",
+          "breakEven": "Break-even-punt",
+          "breakEvenTickets": "1,280 Tickets",
+          "note": "Calculated based on average material and labor costs."
+        },
+        "auditRequirements": {
+          "title": "Auditvereisten",
+          "icon": "Shield",
+          "requirement1": "Trekkingsverificatie door derden ingeschakeld",
+          "requirement2": "Moet het fysieke prijsleveringsgebied definiëren",
+          "requirement3": "Document met algemene voorwaarden in behandeling"
+        }
+      },
+      "common": {
+        "idLabel": "ID",
+        "categoryLabel": "Categorie",
+        "statusLabel": "Status",
+        "actionsLabel": "Acties",
+        "liveStatus": "LIVE",
+        "pendingStatus": "ONDERHOUD",
+        "editIcon": "Bewerken",
+        "deleteIcon": "Verwijderen"
+      }
+    },
+    "leads": {
+      "header": {
+        "title": "Leadbeheer",
+        "subtitle": "Beoordeel en beheer binnenkomende renovatie- en serviceofferteaanvragen."
+      },
+      "actions": {
+        "export": "Leads exporteren",
+        "add": "Handmatige lead toevoegen"
+      },
+      "importModal": {
+        "title": "Handmatige lead toevoegen",
+        "description": "Maak een nieuwe invoer voor een klantaanvraag die offline is ontvangen.",
+        "uploadTitle": "Upload het CSV-bestand vanaf je apparaat.",
+        "uploadHint": "Klik om te bladeren of sleep het bestand hierheen",
+        "uploadLimit": "Maximale bestandsgrootte: 25MB",
+        "noteTitle": "Let op voor een succesvolle import:",
+        "noteBody": "Zorg dat je CSV het standaard template volgt. Verplichte kolommen: Volledige naam, E-mail, Telefoon en Service Type.",
+        "cancel": "Annuleren",
+        "uploadFiles": "Bestanden uploaden",
+        "uploading": "Uploaden..."
+      },
+      "statusOptions": [
+        {
+          "key": "processing",
+          "label": "In behandeling"
+        },
+        {
+          "key": "active",
+          "label": "In uitvoering"
+        },
+        {
+          "key": "contacted",
+          "label": "Gecontacteerd"
+        },
+        {
+          "key": "quoted",
+          "label": "Geciteerd"
+        },
+        {
+          "key": "closed",
+          "label": "Gesloten"
+        }
+      ],
+      "csvHeaders": ["Name", "Email", "Service", "Received Date", "Time", "Status"],
+      "exportFileNamePrefix": "leads-export",
+      "mobileLabels": {
+        "serviceType": "Service Type",
+        "receivedDate": "Received Date",
+        "status": "Status"
+      },
+      "table": {
+        "columns": ["KLANTNAAM", "SERVICETYPE", "DATUM ONTVANGEN", "STATUS", "ACTIES"],
+        "rows": [
+          {
+            "id": "lead-1",
+            "name": "Johannes Smit",
+            "email": "j.smith@email.com",
+            "service": "Keuken renovatie",
+            "receivedDate": "24 oktober 2023",
+            "receivedTime": "10:45 uur",
+            "status": "In behandeling",
+            "statusTone": "processing",
+            "action": "Details bekijken",
+            "avatar": {
+              "initials": "JS",
+              "background": "#E3F5EF"
+            }
+          },
+          {
+            "id": "lead-2",
+            "name": "Sara Johnson",
+            "email": "sarah.j@company.io",
+            "service": "Sanitair",
+            "receivedDate": "23 oktober 2023",
+            "receivedTime": "15:12 uur",
+            "status": "In uitvoering",
+            "statusTone": "active",
+            "action": "Details bekijken",
+            "avatar": {
+              "initials": "SJ",
+              "background": "#FBEADA"
+            }
+          },
+          {
+            "id": "lead-3",
+            "name": "Mike Ross",
+            "email": "mross@legal.com",
+            "service": "Badkamer renovatie",
+            "receivedDate": "22 oktober 2023",
+            "receivedTime": "09:00 uur",
+            "status": "Gecontacteerd",
+            "statusTone": "contacted",
+            "action": "Details bekijken",
+            "avatar": {
+              "initials": "MR",
+              "background": "#E8EEF9"
+            }
+          },
+          {
+            "id": "lead-4",
+            "name": "Emily Davis",
+            "email": "em.davis@web.com",
+            "service": "Dakbedekking",
+            "receivedDate": "21 oktober 2023",
+            "receivedTime": "16:45 uur",
+            "status": "Geciteerd",
+            "statusTone": "quoted",
+            "action": "Details bekijken",
+            "avatar": {
+              "initials": "ED",
+              "background": "#EAF4F1"
+            }
+          },
+          {
+            "id": "lead-5",
+            "name": "Robert Bruin",
+            "email": "rbrown@gmail.com",
+            "service": "Elektrisch",
+            "receivedDate": "20 oktober 2023",
+            "receivedTime": "11:20 uur",
+            "status": "Gesloten",
+            "statusTone": "closed",
+            "action": "Details bekijken",
+            "avatar": {
+              "initials": "RB",
+              "background": "#F1F3F6"
+            }
+          }
+        ],
+        "summary": "Toont 1 tot 5 van 148 leads",
+        "pagination": {
+          "previous": "Vorige pagina",
+          "next": "Volgende pagina",
+          "pages": [1, 2, 3],
+          "currentPage": 1
+        }
+      }
+    },
+    "giveaways": {
+      "header": {
+        "title": "Beheer van weggeefacties",
+        "subtitle": "Beheer actieve wedstrijden en bekijk prestatiestatistieken.",
+        "createButton": "Maak een nieuwe weggeefactie"
+      },
+      "stats": [
+        {
+          "id": "revenue",
+          "label": "Totale omzet",
+          "value": "€ 45.200",
+          "trend": "+15% ten opzichte van vorige week",
+          "trendTone": "positive",
+          "icon": "Wallet",
+          "trendIcon": "TrendingUp"
+        },
+        {
+          "id": "sold",
+          "label": "Kaarten verkocht",
+          "value": "850",
+          "suffix": "/ 1000",
+          "trend": "+5% doeltempo",
+          "trendTone": "positive",
+          "icon": "Ticket",
+          "trendIcon": "TrendingUp"
+        },
+        {
+          "id": "days",
+          "label": "Resterende dagen",
+          "value": "12 dagen",
+          "trend": "Trek op 25 oktober 2023",
+          "trendTone": "alert",
+          "icon": "Clock3"
+        }
+      ],
+      "campaign": {
+        "badge": "ACTIEF",
+        "title": "Badkamer renovatie winactie",
+        "valuePrefix": "Waarde:",
+        "value": "€15.000 Premium Renovatiepakket",
+        "winnerCta": "Selecteer Willekeurige winnaar",
+        "progressTitle": "Kaartverkoop vordert",
+        "progressPercentLabel": "85% bereikt",
+        "progress": 85,
+        "started": "Gestart: 1 september 2023",
+        "soldMeta": "850/1000 Verkocht",
+        "thumbnailLabel": "BR"
+      },
+      "recentBuyers": {
+        "title": "Recente kaartkopers",
+        "viewAll": "Bekijk alle kopers",
+        "buyers": [
+          {
+            "id": "buyer-1",
+            "name": "John Doe",
+            "handle": "@johndoe_const",
+            "ticketsLabel": "Kaartjes",
+            "ticketRange": "#482-485",
+            "avatar": {
+              "initials": "JD",
+              "background": "#FFE0C2"
+            }
+          },
+          {
+            "id": "buyer-2",
+            "name": "Sara Reed",
+            "handle": "@sarah_interiors",
+            "ticketsLabel": "Kaartjes",
+            "ticketRange": "#849-850",
+            "avatar": {
+              "initials": "SR",
+              "background": "#FFD8AF"
+            }
+          },
+          {
+            "id": "buyer-3",
+            "name": "Mike Ridder",
+            "handle": "@ridder_builds",
+            "ticketsLabel": "Kaartjes",
+            "ticketRange": "#830-835",
+            "avatar": {
+              "initials": "MK",
+              "background": "#FFD2A1"
+            }
+          }
+        ]
+      },
+      "quickStats": {
+        "title": "Snel statistiekenoverzicht",
+        "items": [
+          {
+            "id": "daily",
+            "label": "Dagelijkse gemiddelde omzet",
+            "value": "12 kaartjes"
+          },
+          {
+            "id": "conversion",
+            "label": "Conversiepercentage",
+            "value": "4.8%"
+          }
+        ],
+        "note": "\"De winnaarstrekkingknop wordt automatisch ingeschakeld om 12:00 uur AM op de voltooiingsdatum.\"",
+        "trendTitle": "Omzettrend",
+        "trendBars": [32, 58, 46, 72, 66, 79, 70]
+      },
+      "aria": {
+        "create": "Maak nieuwe weggeefactie",
+        "pickWinner": "Selecteer willekeurige winnaar"
+      }
+    },
+    "coupons": {
+      "header": {
+        "title": "Couponbeheer",
+        "subtitle": "Beheer alle weggeefactie-inzendingen en aankoopgegevens voor BuildIt Construction Co."
+      },
+      "stats": [
+        {
+          "id": "totalDiscountsApplied",
+          "label": "Totale korting toegepast",
+          "value": "€ 0",
+          "trend": "",
+          "trendTone": "positive",
+          "icon": "Wallet"
+        },
+        {
+          "id": "activeVouchers",
+          "label": "Actieve vouchers",
+          "value": "0",
+          "trend": "",
+          "trendTone": "positive",
+          "icon": "Ticket"
+        },
+        {
+          "id": "averageDiscountPerOrder",
+          "label": "Gemiddelde korting per bestelling",
+          "value": "€ 0",
+          "trend": "",
+          "trendTone": "positive",
+          "icon": "Wallet"
+        },
+        {
+          "id": "ordersUsingVouchers",
+          "label": "Bestellingen met voucher",
+          "value": "0",
+          "trend": "",
+          "trendTone": "positive",
+          "icon": "Users"
+        }
+      ],
+      "filters": {
+        "title": "Filters:",
+        "items": [
+        
+          {
+            "id": "date",
+            "label": "Datumbereik",
+            "type": "date"
+          }
+        ],
+        "clear": "Alles wissen"
+      },
+      "table": {
+        "detailButton": "Details bekijken",
+        "mobileLabels": {
+          "couponNo": "Coupon No",
+          "purchaseDate": "Purchase Date",
+          "qty": "Qty",
+          "total": "Total",
+          "status": "Status"
+        },
+        "columns": [
+          "Weggeefacties NAAM ",
+          "DEELNEMER",
+          "INSTAGRAM",
+          "AANKOOPDATUM",
+          "AANTAL",
+          "TOTALE PRIJS",
+          "STATUS",
+          "ACTIES"
+        ],
+        "rows": [
+          {
+            "id": "coupon-1",
+            "couponNo": "#TK-4921",
+            "participant": {
+              "initials": "MW",
+              "name": "Marcus Wright"
+            },
+            "instagram": "@wright_builds",
+            "purchaseDate": "12 okt. 2023 14:20",
+            "qty": "5",
+            "total": "$250.00",
+            
+            "statusTone": "paid",
+            "actionAria": "Acties voor TK-4921"
+          },
+          {
+            "id": "coupon-2",
+            "couponNo": "#TK-4922",
+            "participant": {
+              "initials": "SL",
+              "name": "Sara Lopez"
+            },
+            "instagram": "@lopez_design",
+            "purchaseDate": "12 oktober 2023 15:05",
+            "qty": "2",
+            "total": "$100.00",
+            
+            "statusTone": "paid",
+            "actionAria": "Acties voor TK-4922"
+          },
+          {
+            "id": "coupon-3",
+            "couponNo": "#TK-4924",
+            "participant": {
+              "initials": "AB",
+              "name": "Anna Bakker"
+            },
+            "instagram": "@anna_builds_it",
+            "purchaseDate": "13 oktober 2023 09:12",
+            "qty": "1",
+            "total": "$50.00",
+  
+            "statusTone": "paid",
+            "actionAria": "Acties voor TK-4924"
+          },
+          {
+            "id": "coupon-4",
+            "couponNo": "#TK-4925",
+            "participant": {
+              "initials": "DG",
+              "name": "Daniël Groen"
+            },
+            "instagram": "@dgreen_concrete",
+            "purchaseDate": "13 oktober 2023 09:12",
+            "qty": "3",
+            "total": "$150.00",
+            
+            "statusTone": "refunded",
+            "actionAria": "Acties voor TK-4925"
+          }
+        ],
+        "summary": "Toont 1 tot 5 van 642 deelnemers",
+        "pagination": {
+          "previous": "Vorige pagina",
+          "next": "Volgende pagina",
+          "pages": [1, 2, 3],
+          "currentPage": 1
+        }
+      }
+    },
+    "createGiveaway": {
+      "back": "Back",
+      "header": {
+        "title": "Lancering nieuwe weggeefactie",
+        "subtitle": "Configure structural details for your promotional draw. Ensure all ticket allocation metrics are verified before publishing.",
+        "saveButton": "Concept opslaan",
+        "publishButton": "Publiceer nu"
+      },
+      "campaignDetails": {
+        "title": "Campagnedetails",
+        "titleLabel": "Titel van de weggeefactie",
+        "titlePlaceholder": "e.g., Win a Full Bathroom Renovation",
+        "descriptionLabel": "Rich Text Description",
+        "descriptionPlaceholder": "Describe the prize, structural work included, and materials used..."
+      },
+      "ticketSales": {
+        "title": "Kaartverkoop",
+        "priceLabel": "Ticketprijs (€)",
+        "priceValue": "€ 15.00",
+        "totalTicketsLabel": "Totaal aantal beschikbare tickets",
+        "totalTicketsValue": "5000"
+      },
+      "timeline": {
+        "title": "Tijdlijn",
+        "drawDateLabel": "Datum trekking",
+        "drawTimeLabel": "Trektijd (UTC)"
+      },
+      "preview": {
+        "title": "Promotionele media",
+        "uploadLabel": "Klik om de omslagfoto te uploaden",
+        "uploadHint": "PNG of JPG met hoge resolutie (max. 5 MB)",
+        "forecast": {
+          "title": "Omzetprognose",
+          "maxBruttowinst": "Maximale brutowinst",
+          "maxValue": "€75,000",
+          "breakEvenLabel": "Break-even-punt",
+          "breakEvenValue": "1,280 Tickets",
+          "progress": 28,
+          "note": "Calculated based on average material and labor costs."
+        },
+        "audit": {
+          "title": "Auditvereisten",
+          "items": [
+            {
+              "id": "audit-1",
+              "label": "Trekkingsverificatie door derden ingeschakeld",
+              "status": "completed"
+            },
+            {
+              "id": "audit-2",
+              "label": "Moet het fysieke prijsleveringsgebied definiëren",
+              "status": "warning"
+            },
+            {
+              "id": "audit-3",
+              "label": "Document met algemene voorwaarden in behandeling",
+              "status": "pending"
+            }
+          ]
+        }
+      }
+    },
+    "launchGiveaway": {
+      "header": {
+        "title": "Winnaar selectie",
+        "subtitle": "Badkamer renovatie winactie",
+        "backButton": "Beheer van weggeefacties"
+      },
+      "stats": [
+        {
+          "id": "tickets-sold",
+          "label": "KAARTEN VERKOCHTE",
+          "value": "1.000"
+        },
+        {
+          "id": "total-stake",
+          "label": "TOTALE OMZET",
+          "value": "€ 10.000"
+        }
+      ],
+      "randomizer": {
+        "title": "RANDOMIZER-ENGINE ACTIEF",
+        "description": "Selecteren van willekeurige winnaar...",
+        "button": "TREK WINNAAR",
+        "drawingText": "Schrijf handmatig een couponcode",
+        "completedText": "Trek winnaar handmatig",
+        "winnaarTrekken": "Winnaar trekken",
+        "waitingText": "Wachten op trekkingsresultaat...",
+        "disclaimer": "Verified draw process with cryptographically secure random number generation"
+      },
+      "winner": {
+        "title": "WINNAAR AANKONDIGING",
+        "badge": "Coupon #89953",
+        "name": "John Doe",
+        "handle": "@john_doe",
+        "ticketLabel": "Ticket",
+        "ticketBadge": "Coupon #89953",
+        "ticketRange": "#482-485",
+        "buttons": [
+          {
+            "label": "Informeer",
+            "shortLabel": "Info",
+            "type": "primary"
+          },
+          {
+            "label": "Delen",
+            "shortLabel": "Share",
+            "type": "secondary"
+          }
+        ],
+        "noteBelow": "Winnaar opnieuw trekken",
+        "noteBelowShort": "Opnieuw"
+      },
+      "recentEntries": {
+        "title": "Voorbeeld van inzendertals",
+        "searchPlaceholder": "Zoek ticket...",
+        "columns": ["COUPON NUMMER", "NAAM DEELNEMER", "AANMELDATUM", "INZENDINGEN", "STATUS"],
+        "mobileLabels": {
+          "id": "ID",
+          "name": "Name",
+          "date": "Date",
+          "entries": "Entries"
+        },
+        "rows": [
+          {
+            "id": "entry-1",
+            "number": "#8901",
+            "name": "Alice Henderson",
+            "date": "12 oktober 2023",
+            "entries": "5",
+            "status": "Geverifieerd",
+            "statusTone": "verified"
+          },
+          {
+            "id": "entry-2",
+            "number": "#8902",
+            "name": "John Doe",
+            "date": "15 oktober 2023",
+            "entries": "12",
+            "status": "Gewonnen",
+            "statusTone": "won"
+          },
+          {
+            "id": "entry-3",
+            "number": "#8903",
+            "name": "Kevin Vought",
+            "date": "22 november 2023",
+            "entries": "1",
+            "status": "Geverifieerd",
+            "statusTone": "verified"
+          }
+        ]
+      },
+      "history": {
+        "title": "Geschiednis van de weggeefactie",
+        "columns": ["NAAM WEGGEEFACTIE", "STATUS", "WINNAAR", "WINST", "ACTIE"],
+        "mobileLabels": {
+          "status": "Status",
+          "winnings": "Winnings",
+          "winner": "Winner",
+          "detailsButton": "Details bekijken"
+        },
+        "rows": [
+          {
+            "id": "history-1",
+            "name": "Moderne keukenupgrade",
+            "status": "VICTORIE",
+            "winner": "@amy_renae",
+            "winnings": "€ 52.000",
+            "action": "Bekijken"
+          },
+          {
+            "id": "history-2",
+            "name": "Hierontwerp van het buitenterras",
+            "status": "WACHTENDE SCORE",
+            "winner": "Niet gekozen",
+            "winnings": "€ 0",
+            "action": "Bewerken"
+          }
+        ]
+      }
+    }
+  },
+  "home": {
+    "title": "Left Lane",
+    "subtitle": "Luxe leefruimtes creëren met precisie, kwaliteit en vakmanschap.",
+    "announcement": {
+      "title": "De winnaar wordt\nbekendgemaakt.",
+      "days": "Dag",
+      "hours": "Uur",
+      "minutes": "Min",
+      "seconds": "Sec",
+      "buyNow": "Koop nu"
+    },
+    "nav": {
+      "home": "Thuis",
+      "services": "Services",
+      "giveaway": "Giveaway",
+      "about": "About",
+      "dashboard": "Dashboard",
+      "contactUs": "Neem contact met ons op"
+    },
+    "hero": {
+      "badge": "Meesterbouwers en ontwerpers",
+      "headingLine1": "Creëer een luxe",
+      "headingLine2": "levensstijl met",
+      "headingLine3": "precisie",
+      "description": "Het transformeren van hoogwaardige residentiële en commerciële ruimtes in architectonische meesterwerken door innovatief ontwerp en superieur vakmanschap.",
+      "requestQuote": "Offerte aanvragen",
+      "viewServices": "Bekijk Diensten",
+      "imageAlt": "Premium constructieproject showcase",
+      "yearsExcellence": "Jaren uitmuntendheid"
+    },
+    "services": {
+      "label": "Expertise",
+      "title": "Onze gespecialiseerde diensten",
+      "subtitle": "Van concept tot voltooiing, wij bieden end-to-end oplossingen voor al uw bouw- en renovatiebehoeften.",
+      "learnMore": "Meer informatie",
+      "item1": {
+        "title": "Renovatie op maat",
+        "description": "Volledige structurele en esthetische upgrades, afgestemd op uw unieke levensstijl en voorkeuren."
+      },
+      "item2": {
+        "title": "Premium Onderhoud",
+        "description": "Regelmatig onderhoud en preventieve zorg voor luxe eigendommen om blijvende waarde en schoonheid te garanderen."
+      },
+      "item3": {
+        "title": "Deskundige loodgieter",
+        "description": "Geavanceerde sanitaire systemen en designerinstallaties voor geavanceerde moderne bouwwerken."
+      }
+    },
+    "about": {
+      "heading": "Bouwen voorbij Grenzen sinds 2019",
+      "description": "EliteBuild is gebaseerd op het principe dat bouwen een kunstvorm is. We bouwen niet alleen structuren; we creëren omgevingen die inspireren. Ons team van meestervakmensen en architecten werken synergetisch samen om perfectie te leveren op elke vierkante centimeter.",
+      "stat1": "Projecten opgeleverd",
+      "stat2": "Klanttevredenheid"
+    },
+    "portfolio": {
+      "label": "Portefeuille",
+      "title": "Transformatie visualiseren",
+      "viewAll": "Bekijk alle projecten",
+      "before": "Voor",
+      "after": "Na",
+      "item1": {
+        "title": "Het Erfgoedkeukenproject",
+        "subtitle": "Volledige restauratie en moderne uitbreiding"
+      },
+      "item2": {
+        "title": "De azuurblauwe badoase",
+        "subtitle": "Hedendaagse spa-integratie"
+      }
+    },
+    "giveaway": {
+      "tag": "JAARLIJKSE ELITE-GIVEAWAY",
+      "heading1": "Win een badkamer",
+      "heading2": "Renovatie!",
+      "description": "Steun onze jaarlijkse liefdadigheidsactie en maak kans op een complete premium renovatie ter waarde van $ 25.000. Elke ticketaankoop steunt lokale huisvestingsinitiatieven.",
+      "cta": "KOOP KAARTJE",
+      "entrants": "Sluit u aan bij 450+ deelnemers",
+      "imageAlt": "Hoofdprijs badkamerrenovatie",
+      "grandPrize": "Hoofdprijs: Designerbadkamer"
+    },
+    "testimonials": {
+      "label": "Recensies",
+      "title": "Vertrouwd door moderne visionairs",
+      "item1": {
+        "name": "Jonathan Vance",
+        "role": "CEO, Vance Tech",
+        "quote": "EliteBuild maakte van onze ranch uit de jaren 50 een modern meesterwerk. Hun aandacht voor detail in de op maat gemaakte kasten is eenvoudigweg ongeëvenaard."
+      },
+      "item2": {
+        "name": "Sarah Jenkins",
+        "role": "Vastgoedontwikkelaar",
+        "quote": "Professioneel, punctueel en zeer goed bekwaam. Het project was klaar vóór op schema en onder begroting zonder compromissen kwaliteit."
+      },
+      "item3": {
+        "name": "Michaël Chen",
+        "role": "Architectonisch adviseur",
+        "quote": "De meest stressvrije renovatie die ik ooit heb meegemaakt. Ze verzorgden alles, van vergunningen tot de uiteindelijke staging. Pure luxe service."
+      }
+    },
+    "footer": {
+      "tagline": "Toonaangevend in de sector op het gebied van luxe bouw- en renovatiediensten in Noord-Amerika. Uitmuntendheid is niet alleen onze standaard, het is onze obsessie.",
+      "navHeading": "Navigatie",
+      "nav": {
+        "residential": "Residentiële diensten",
+        "commercial": "Commerciële constructies",
+        "portfolio": "Projectportfolio",
+        "portal": "Klantenportaal",
+        "careers": "Carrières"
+      },
+      "contactHeading": "Contactgegevens",
+      "newsletterHeading": "Nieuwsbrief",
+      "socialHeading": "Sociale Media-Links",
+      "newsletterSubtitle": "Ontvang de nieuwste ontwerptrends en renovatietips in je inbox.",
+      "emailPlaceholder": "E-mailadres",
+      "newsletterSubmit": "Abonneer op nieuwsbrief",
+      "copyright": "© 2024 ELITEBUILD BOUW. ALLE RECHTEN VOORBEHOUDEN.",
+      "privacy": "Privacybeleid",
+      "terms": "Servicevoorwaarden"
+    }
+  },
+  "about": {
+    "title": "Over Ons",
+    "subtitle": "Meer dan twee decennia van het transformeren van skylines en het versterken van gemeenschappen door middel van superieur vakmanschap.",
+    "seoTitle": "Left Lane ",
+    "seoDescription": "Meer dan twee decennia van het transformeren van skylines en het versterken van gemeenschappen door middel van superieur vakmanschap.",
+    "heroHeadingLine1": "Uitmuntendheid bouwen",
+    "heroHeadingLine2": "Sinds 1998",
+    "heroSubtitle": "Meer dan twee decennia van het transformeren van skylines en het versterken van gemeenschappen door middel van superieur vakmanschap.",
+    "heritageLabel": "Onze erfenis",
+    "storyHeadingLine1": "Gedreven door een doel,",
+    "storyHeadingLine2": "gedefinieerd door Kwaliteit",
+    "storyParagraph1": "BuildMaster Construction werd ruim twintig jaar geleden opgericht en begon met een eenvoudige visie: het leveren van hoogwaardige bouwdiensten die de tand des tijds doorstaan. Wat begon als een klein familiebedrijf, is uitgegroeid tot een regionale leider in commerciële en residentiële ontwikkeling.",
+    "storyParagraph2": "Onze missie is om onze klanten innovatieve bouwoplossingen te bieden met behoud van de hoogste normen op het gebied van veiligheid en professionele uitmuntendheid. Wij geloven dat elk project een partnerschap is en een kans om iets blijvends te creëren.",
+    "visionTitle": "Onze visie",
+    "visionDesc": "Om de meest vertrouwde en geprefereerde bouw partner in de sector te zijn, erkend voor onze inzet voor duurzaamheid en innovatie.",
+    "missionTitle": "Onze missie",
+    "missionDesc": "Om omgevingen te bouwen die levens verbeteren, met behulp van de allernieuwste technologie en beproefde technieken om ongeëvenaarde resultaten te leveren.",
+    "valuesLabel": "Fundamentele principes",
+    "valuesHeading": "Onze kernwaarden",
+    "qualityTitle": "Kwaliteit",
+    "qualityDesc": "We doen nooit concessies op het gebied van materialen of methoden. Elke verbinding, elke steen en elke afwerking weerspiegelt onze toewijding aan ambachtelijke perfectie.",
+    "integrityTitle": "Integriteit",
+    "integrityDesc": "Eerlijkheid is de blauwdruk van ons bedrijf. We communiceren transparant, komen onze contracten na en bouwen vertrouwen op via verantwoording.",
+    "reliabilityTitle": "Betrouwbaarheid",
+    "reliabilityDesc": "Tijd is kostbaar. We zijn er trots op dat we deadlines halen en verwachtingen overtreffen, ervoor zorgen dat uw visie tot leven komt op schema.",
+    "ctaHeading": "Klaar om uw droomproject te bouwen?",
+    "ctaSubtitle": "Laten we samenwerken om uw visie met precisie en zorg tot leven te brengen.",
+    "ctaContactBtn": "Neem contact op met ons team",
+    "ctaPortfolioBtn": "Onze portefeuille"
+  },
+  "services": {
+    "seoTitle": "Left Lane ",
+    "seoDescription": "Complete bouw- en renovatiediensten van loodgieterij tot dakdekking, stucwerk, elektra en meer.",
+    "heading": "Onze diensten",
+    "description": "Kies hieronder een dienst om te ontdekken wat we te bieden hebben en hoe we u kunnen helpen uw project tot leven te brengen met kwaliteit waar u jarenlang op kunt vertrouwen.",
+    "viewDetails": "Details bekijken",
+    "cta": {
+      "title": "Klaar om uw project te starten?",
+      "description": "Neem vandaag nog contact met ons op voor een gratis adviesgesprek en een persoonlijke schatting voor uw bouwbehoeften.",
+      "contactButton": "Neem nu contact met ons op",
+      "browseButton": "Blader door projecten"
+    },
+    "card1": {
+      "category": "Loodgietersdiensten",
+      "title": "Complete sanitairoplossingen waarop u kunt vertrouwen",
+      "description": "Wij bieden full-service loodgieterswerk en installatie voor zowel residentiële als commerciële projecten."
+    },
+    "card2": {
+      "category": "Dakdekkersdiensten",
+      "title": "Sterke, weerbestendige dakbedekking gebouwd voor de toekomst",
+      "description": "Wij zijn gespecialiseerd in complete dakbedekkingsoplossingen, waaronder fakkeldakbedekking, pannendaken en zinkafwerking."
+    },
+    "card3": {
+      "category": "Stukadoorsdienst",
+      "title": "Gladde, schone en perfect afgewerkte oppervlakken",
+      "description": "Ons vakkundige team levert zowel dik als dun pleisterwerk met precisie en zorg voor een vlekkeloos resultaat."
+    },
+    "card4": {
+      "category": "Elektrische diensten",
+      "title": "Veilige, moderne en toekomstbestendige elektrische installaties",
+      "description": "Wij verzorgen de complete elektrische binneninstallaties, meterkasten en bekabeling voor woningen en bedrijven."
+    },
+    "card5": {
+      "category": "Tegelservices",
+      "title": "Gedetailleerde betegeling met een onberispelijke fundering",
+      "description": "Wij verzorgen complete betegeling voor badkamers en volledige woningvloeren, inclusief het nivelleren van vloeren."
+    },
+    "card6": {
+      "category": "Vloeroplossingen",
+      "title": "Complete vloeroplossingen op één plek",
+      "description": "Wij verzorgen complete vloeroplossingen voor badkamers en woningvloeren, inclusief parket, laminaat en tegels."
+    },
+    "card7": {
+      "category": "Schoonmaakdiensten",
+      "title": "Flexibele reiniging voor een consistent frisse ruimte",
+      "description": "We bieden professionele schoonmaakdiensten op dagelijkse, wekelijkse of maandelijkse basis voor een frisse ruimte."
+    },
+    "card8": {
+      "category": "Algemene service",
+      "title": "Uitgebreid projectmanagement en algemene contractering",
+      "description": "Wij bieden compleet projectmanagement voor grootschalige renovaties en nieuwbouw, van initiële planning tot uiteindelijke oplevering."
+    }
+  },
+  "checkout": {
+    "seoTitle": "Left Lane - Weggeefkaartjes kopen",
+    "seoDescription": "Koop uw giveaway ticket en maak kans op een complete badkamerrenovatie ter waarde van € 15.000.",
+    "cardTitle": "Weggeefkaartjes",
+    "cardSubtitle": "Officieel toegangsportaal",
+    "step1of4": "Stap 1 van 4",
+    "pct25": "25% voltooid",
+    "nextStepLabel": "Volgende: Persoonlijke gegevens",
+    "step1Heading": "Kies Tickethoeveelheid",
+    "step1Desc": "Hoe meer inzendingen, hoe groter uw kansen op het winnen van de hoofdprijs!",
+    "ticket1Label": "1 kaartje",
+    "ticket1Price": "€ 5,00",
+    "ticket5Label": "5 kaartjes",
+    "ticket5Badge": "BESPAAR 20%",
+    "ticket5Price": "€ 20,00",
+    "ticket10Label": "10 kaartjes",
+    "ticket10Badge": "BESPAAR 30%",
+    "ticket10Price": "€ 35,00",
+    "ticket20Label": "20 kaartjes",
+    "ticket20Badge": "BESTE WAARDE",
+    "ticket20Price": "€ 60,00",
+    "step2Heading": "Stap 2: Persoonlijke gegevens",
+    "fullName": "Volledige naam",
+    "emailAddress": "E-mailadres",
+    "phoneNumber": "Telefoonnummer",
+    "instagramUsername": "Instagram gebruikersnaam",
+    "promoTitle": "Heeft u een promotiecode?",
+    "promoPlaceholder": "Voer code in",
+    "promoApply": "Toepassen",
+    "promoApplied": "SAVE10 toegepast",
+    "promoDiscount": "-€0.50",
+    "paymentTitle": "Betaalmethode",
+    "payStripe": "Stripe",
+    "payPayPal": "PayPal",
+    "totalLabel": "Totaal bedrag",
+    "totalAmount": "€ 4.50",
+    "ctaButton": "Ga door naar de volgende stap",
+    "disclaimer": "Als je doorgaat, ga je akkoord met onze Servicevoorwaarden en Giveaway-regels. Je moet 18+ zijn om deel te nemen.",
+    "footerRules": "Regels",
+    "footerPrivacy": "Privacy",
+    "footerSupport": "Steun"
+  },
+  "giveaway": {
+    "seoTitle": "Left Lane - Win een droombadkamerrenovatie",
+    "seoDescription": "Doe mee aan onze giveaway en win een complete badkamerrenovatie ter waarde van € 15.000.",
+    "heroTag": "Beperkte promotie",
+    "heroHeading": "Win een droombadkamerrenovatie",
+    "heroDescription": "Transformeer uw huis met een complete, hoogwaardige renovatie ter waarde van € 15.000. Je toevluchtsoord wacht op.",
+    "ticketPriceLabel": "Ticketprijs",
+    "ticketPrice": "€ 10",
+    "totalTicketsLabel": "Totaal aantal kaartjes",
+    "totalTickets": "1000",
+    "drawDateLabel": "Datum trekking",
+    "drawDate": "24 december",
+    "soldLabel": "Kaarten verkocht",
+    "soldCount": "650 / 1.000",
+    "urgencyText": "Snel verkopen! . Er zijn nog maar 350 tickets over voor de grote trekking.",
+    "howWorksTitle": "Hoe het werkt",
+    "step1Title": "1. Koop kaartjes",
+    "step1Desc": "Koop een of meer kaartjes voor slechts € 10 per stuk. Elk ticket is een toegang.",
+    "step2Title": "2. Live-trekking",
+    "step2Desc": "De winnaar wordt willekeurig gekozen tijdens onze livestream op Kerstavond.",
+    "step3Title": "3. Ontwerpadvies",
+    "step3Desc": "Onze experts werken met u samen om uw droombadkamer te plannen indeling.",
+    "step4Title": "4. Vernieuwing",
+    "step4Desc": "Wij verzorgen alles, van loodgieterswerk tot tegels. Leun achterover en ontspan.",
+    "sidebarTitle": "Voer de Giveaway in",
+    "singleEntry": "Enkele invoer",
+    "singlePrice": "€ 10",
+    "bundleLabel": "Pakket van ",
+    "bundleBadge": "Beste waarde",
+    "bundlePrice": "€ 45",
+    "ctaButton": "KOOP NU EEN KAART",
+    "ctaSecure": "Veilig afrekenen met Stripe of PayPal. Winnaars worden op de hoogte gebracht via e-mail.",
+    "termsTitle": "Algemene voorwaarden",
+    "term1": "Open voor inwoners van de Europese Unie van 18 jaar en ouder.",
+    "term2": "Totale prijswaarde beperkt tot € 15.000.",
+    "term3": "Renovatie moet plaatsvinden in 2024.",
+    "term4": "Geen contant alternatief beschikbaar.",
+    "galleryTitle": "Transformaties uit het verleden",
+    "galleryLink": "View Portfolio"
+  },
+  "serviceDetail": {
+    "seoTitle": "Left Lane - Complete Sanitairoplossingen",
+    "seoDescription": "Full-service loodgieterswerk en installatie voor residentiële en commerciële projecten.",
+    "heroTag": "Sanitair",
+    "heroHeading": "Complete sanitairoplossingen waarop u kunt vertrouwen",
+    "heroDescription": "Van inbouwinstallaties tot ketels en warmtepompen, wij leveren duurzame, veilige en efficiënte systemen die zijn gebouwd om lang mee te gaan.",
+    "overviewTitle": "Serviceoverzicht",
+    "basePriceLabel": "Basisprijs",
+    "overviewText": "Wij verzorgen full-service loodgieterswerk en installatie voor zowel particuliere als commerciële projecten. Onze diensten omvatten watertoevoersystemen, centrale verwarmingsleidingen (CV), afvoersystemen en deskundige lekdetectie en reparatie.",
+    "overviewItalic": "Van inbouwinstallaties tot ketels en warmtepompen, wij leveren duurzame, veilige en efficiënte systemen die zijn gebouwd om lang mee te gaan.",
+    "galleryTitle": "Projectgalerij",
+    "galleryBefore": "Voor",
+    "galleryAfter": "Na",
+    "workTitle": "Hoe wij werken",
+    "step1Title": "Betrouwbare systemen",
+    "step1Desc": "We bespreken uw doelen, budget en tijdlijn om een gedetailleerd projectroadmap en ontwerpconcept te creëren.",
+    "step2Title": "Prestaties op lange termijn",
+    "step2Desc": "Onze architecten finaliseren de blauwdrukken en verzorgen alle benodigde stadsvergunningen en wettelijke goedkeuringen.",
+    "step3Title": "Gemoedsrust voor de komende jaren",
+    "step3Desc": "Bekwame vakmensen voeren het loodgieterswerk uit, onder dagelijks toezicht van een supervisor en kwaliteitscontroles.",
+    "step4Title": "Laatste overdracht",
+    "step4Desc": "Een grondige walkthrough zorgt ervoor dat u 100% tevreden bent voordat we aftekenen voor de transformatie.",
+    "reviewsTitle": "Feedback van klanten",
+    "review1Quote": "\"Het team heeft onze verouderde keuken volledig omgetoverd tot een modern meesterwerk. Professioneel vanaf dag één.\"",
+    "review1Author": "— Sarah J., West End",
+    "review2Quote": "\"Uitstekend beheer van het hele project. Ze hielden zich aan het budget en waren 2 weken eerder klaar!\"",
+    "review2Author": "— Michael T., Downtown",
+    "whyTitle": "Why Choose Us?",
+    "why1": "Licensed & Insured",
+    "why2": "10-Year Structural Warranty",
+    "why3": "Transparent Pricing",
+    "ctaWhatsapp": "WhatsApp",
+    "ctaQuote": "Request Quote"
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "subtitle": "Neem contact met ons op",
+    "seoTitle": "Left Lane - Offerte aanvragen",
+    "seoDescription": "Vraag een offerte aan voor uw renovatieproject. Wij reageren binnen 24 uur.",
+    "pageHeading": "Offerte aanvragen",
+    "pageSubtitle": "Geef ons uw projectdetails en wij geven u binnen 24 uur een uitgebreide schatting.",
+    "labelFullName": "Volledige naam",
+    "placeholderFullName": "bijv. Jan de Vries",
+    "labelEmail": "E-mailadres",
+    "placeholderEmail": "jan@voorbeeld.com",
+    "labelPhone": "Telefoonnummer",
+    "placeholderPhone": "+31 (555) 000-0000",
+    "labelServiceType": "Servicetype",
+    "placeholderServiceType": "Kies een service",
+    "serviceOptions": [
+      "Loodgietersdiensten",
+      "Dakdekkersdiensten",
+      "Stukadoorsdienst",
+      "Elektrische diensten",
+      "Tegelservices",
+      "Complete vloeroplossingen",
+      "Schoonmaakdiensten",
+      "Algemene service"
+    ],
+    "labelAddress": "Projectadres",
+    "placeholderAddress": "Constructieweg 123, Suite 100",
+    "labelDetails": "Projectdetails",
+    "placeholderDetails": "Beschrijf uw project, tijdlijn en specifieke vereisten...",
+    "labelUpload": "Upload referentiebeelden van het project",
+    "uploadCta": "Bestand uploaden",
+    "uploadOr": "of slepen en neerzetten",
+    "uploadHint": "PNG, JPG, PDF tot 10MB",
+    "fileErrorMax": "Maximum 5 bestanden toegestaan",
+    "submitButton": "Offerte aanvraag indienen",
+    "submitButtonLoading": "Verzenden...",
+    "successMessage": "Offerteaanvraag succesvol verzonden! Wij nemen binnenkort contact op.",
+    "errorRequired": "Vul alstublieft alle verplichte velden in",
+    "errorSubmit": "Het verzenden is mislukt. Probeer het opnieuw.",
+    "securityNote": "Uw informatie is veilig versleuteld en privé bewaard.",
+    "ctaWhatsApp": "WhatsApp",
+    "ctaRequestQuote": "Offerte aanvragen",
+    "fastTitle": "Snelle reactie",
+    "fastDesc": "Ons team beoordeelt en reageert op alle offertes binnen 24 werkuren.",
+    "expertTitle": "Deskundig advies",
+    "expertDesc": "Elke offerte bevat een gratis 15 minuten technisch ontdekkingsgesprek.",
+    "pricingTitle": "Vaste prijzen",
+    "pricingDesc": "Wij bieden een transparante uitsplitsing zonder verborgen kosten of toeslagen.",
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht",
+      "send": "Bericht Verzenden",
+      "sending": "Verzenden...",
+      "successMessage": "Bericht succesvol verzonden!",
+      "errorMessage": "Verzenden mislukt. Probeer het opnieuw."
+    }
+  },
+  "language": {
+    "switchTo": "Taal wisselen",
+    "en": "EN",
+    "nl": "NL"
+  },
+  "coupons": {
+    "header": {
+      "title": "Couponbeheer",
+      "subtitle": "Bekijk en beheer al uw coupons en transacties"
+    },
+    "stats": [
+      {
+        "id": 1,
+        "label": "Totaal Coupons",
+        "value": "2.543",
+        "trend": "+12%",
+        "icon": "Ticket",
+        "progress": 65
+      },
+      {
+        "id": 2,
+        "label": "Actieve Gebruikers",
+        "value": "1.853",
+        "trend": "+8%",
+        "icon": "Users"
+      },
+      {
+        "id": 3,
+        "label": "Totale Inkomsten",
+        "value": "€127.500",
+        "trend": "+23%",
+        "icon": "Wallet"
+      }
+    ],
+    "filters": {
+      "title": "Filters:",
+      "clear": "Alles Wissen",
+      "items": [
+        {
+          "id": 1,
+          "label": "Alle winacties",
+          "type": "select"
+        },
+        {
+          "id": 2,
+          "label": "Alle status",
+          "type": "select"
+        },
+        {
+          "id": 3,
+          "label": "Datumbereik",
+          "type": "date"
+        },
+        {
+          "id": 4,
+          "label": "Bedragbereik",
+          "type": "select"
+        },
+        {
+          "id": 5,
+          "label": "Gebruikerstype",
+          "type": "select"
+        }
+      ]
+    },
+    "table": {
+      "columns": ["Coupon Nr", "Deelnemer", "Instagram", "Aankoopdatum", "Aantal", "Totaal", "Acties"],
+      "rows": [
+        {
+          "id": 1,
+          "couponNo": "#CPX001",
+          "participant": {
+            "name": "John Anderson",
+            "initials": "JA"
+          },
+          "instagram": "@john_design",
+          "purchaseDate": "15 jan 2024",
+          "qty": 3,
+          "total": "€150",
+        
+          "statusTone": "paid",
+          "actionAria": "Acties voor coupon CPX001"
+        },
+        {
+          "id": 2,
+          "couponNo": "#CPX002",
+          "participant": {
+            "name": "Sarah Mitchell",
+            "initials": "SM"
+          },
+          "instagram": "@sarah_m",
+          "purchaseDate": "14 jan 2024",
+          "qty": 2,
+          "total": "€100",
+         
+          "statusTone": "paid",
+          "actionAria": "Acties voor coupon CPX002"
+        },
+        {
+          "id": 3,
+          "couponNo": "#CPX003",
+          "participant": {
+            "name": "Michael Chen",
+            "initials": "MC"
+          },
+          "instagram": "@michael.chen",
+          "purchaseDate": "13 jan 2024",
+          "qty": 1,
+          "total": "€50",
+        
+          "statusTone": "refunded",
+          "actionAria": "Acties voor coupon CPX003"
+        },
+        {
+          "id": 4,
+          "couponNo": "#CPX004",
+          "participant": {
+            "name": "Emma Rodriguez",
+            "initials": "ER"
+          },
+          "instagram": "@emma_r",
+          "purchaseDate": "12 jan 2024",
+          "qty": 4,
+          "total": "€200",
+      
+          "statusTone": "paid",
+          "actionAria": "Acties voor coupon CPX004"
+        },
+        {
+          "id": 5,
+          "couponNo": "#CPX005",
+          "participant": {
+            "name": "David Thompson",
+            "initials": "DT"
+          },
+          "instagram": "@david.t",
+          "purchaseDate": "11 jan 2024",
+          "qty": 2,
+          "total": "€100",
+         
+          "statusTone": "paid",
+          "actionAria": "Acties voor coupon CPX005"
+        },
+        {
+          "id": 6,
+          "couponNo": "#CPX006",
+          "participant": {
+            "name": "Lisa Wang",
+            "initials": "LW"
+          },
+          "instagram": "@lisa_wang_art",
+          "purchaseDate": "10 jan 2024",
+          "qty": 3,
+          "total": "€150",
+        
+          "statusTone": "paid",
+          "actionAria": "Acties voor coupon CPX006"
+        }
+      ]
+    }
+  }
+}

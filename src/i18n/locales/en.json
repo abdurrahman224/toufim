@@ -1,0 +1,468 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "login": "Login",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "loginPage": {
+    "backToHome": "Back to Home",
+    "heading": "Sign in to your account",
+    "subheading": "Enter your credentials to continue to the dashboard.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "beheerder@buildright.com",
+    "emailRequired": "Email is required.",
+    "emailInvalid": "Please enter a valid email address.",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "passwordRequired": "Password is required.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "signingIn": "Signing in…",
+    "signIn": "Sign In to Dashboard"
+  },
+  "home": {
+    "title": "Left Lane - Premium Construction & Renovation",
+    "subtitle": "Crafting luxury living spaces with precision, quality, and unwavering dedication to excellence.",
+    "announcement": {
+      "title": "Winner Will Be Announced",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "buyNow": "Buy now"
+    },
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "giveaway": "Giveaway",
+      "about": "About",
+      "dashboard": "Dashboard",
+      "contactUs": "Contact Us"
+    },
+    "hero": {
+      "badge": "Master Builders & Designers",
+      "headingLine1": "Crafting Luxury",
+      "headingHighlight": "Lifestyles",
+      "headingLine2": "with",
+      "headingLine3": "Precision",
+      "description": "We transform ordinary spaces into extraordinary living environments through expert craftsmanship, premium materials, and meticulous attention to detail.",
+      "requestQuote": "Request Quote",
+      "viewServices": "View Services",
+      "imageAlt": "Premium construction project showcase",
+      "yearsExcellence": "Years Excellence"
+    },
+    "services": {
+      "label": "Expertise",
+      "title": "Our Specialized Services",
+      "subtitle": "Comprehensive construction and renovation solutions tailored to your vision.",
+      "learnMore": "Learn More",
+      "item1": {
+        "title": "Custom Renovation",
+        "description": "Complete home transformations designed around your lifestyle and aesthetic preferences."
+      },
+      "item2": {
+        "title": "Premium Maintenance",
+        "description": "Proactive upkeep programs that preserve the beauty and integrity of your property."
+      },
+      "item3": {
+        "title": "Expert Plumbing",
+        "description": "High-quality plumbing installations and repairs executed with precision and care."
+      }
+    },
+    "about": {
+      "heading": "Building Beyond Boundaries Since 2019",
+      "description": "We are a family of dedicated craftsmen and designers committed to delivering luxury living spaces that endure the test of time.",
+      "stat1": "Projects Delivered",
+      "stat2": "Client Satisfaction"
+    },
+    "portfolio": {
+      "label": "Portfolio",
+      "title": "Visualizing Transformation",
+      "viewAll": "View All Projects",
+      "before": "Before",
+      "after": "After",
+      "item1": {
+        "title": "The Heritage Kitchen Project",
+        "subtitle": "Full Restoration & Modern Expansion"
+      },
+      "item2": {
+        "title": "The Azure Bath Oasis",
+        "subtitle": "Contemporary Spa Integration"
+      }
+    },
+    "giveaway": {
+      "tag": "Annual Elite Giveaway",
+      "heading1": "Win a Bathroom",
+      "heading2": "Renovation!",
+      "description": "Enter our annual giveaway for a chance to win a complete bathroom renovation worth €15,000. Every coupon is a chance to transform your space.",
+      "cta": "BUY Coupon — €50",
+      "entrants": "Join 450+ entrants",
+      "imageAlt": "Giveaway prize bathroom renovation",
+      "grandPrize": "Grand Prize: Designer Bathroom"
+    },
+    "testimonials": {
+      "label": "Reviews",
+      "title": "Trusted by Modern Visionaries",
+      "item1": {
+        "name": "Jonathan Vance",
+        "role": "CEO, Vance Tech",
+        "quote": "EliteBuild transformed our office into a space that truly reflects our brand. The attention to detail was remarkable."
+      },
+      "item2": {
+        "name": "Sarah Jenkins",
+        "role": "Real Estate Developer",
+        "quote": "Working with EliteBuild was seamless from start to finish. They delivered beyond our expectations and on schedule."
+      },
+      "item3": {
+        "name": "Michael Chen",
+        "role": "Architectural Consultant",
+        "quote": "The craftsmanship and quality of materials used by EliteBuild is unmatched. I recommend them to all my clients."
+      }
+    },
+    "footer": {
+      "tagline": "Crafting luxury living spaces with precision, quality, and unwavering dedication to excellence.",
+      "navHeading": "Navigation",
+      "nav": {
+        "residential": "Residential Services",
+        "commercial": "Commercial Builds",
+        "portfolio": "Project Portfolio",
+        "portal": "Client Portal",
+        "careers": "Careers"
+      },
+      "contactHeading": "Contact Info",
+      "newsletterHeading": "Newsletter",
+      "socialHeading": "Social Media Links",
+      "newsletterSubtitle": "Get the latest design trends and renovation tips delivered to your inbox.",
+      "emailPlaceholder": "Email Address",
+      "newsletterSubmit": "Subscribe to newsletter",
+      "copyright": "© 2024 ELITEBUILD CONSTRUCTION. ALL RIGHTS RESERVED.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Learn more about our company and what we do",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To deliver exceptional web solutions that help businesses grow"
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Innovation, quality, and customer satisfaction"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "webDev": {
+      "title": "Web Development",
+      "description": "Custom web applications built with modern technologies"
+    },
+    "mobileDev": {
+      "title": "Mobile Development",
+      "description": "Native and cross-platform mobile applications"
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "Beautiful and intuitive user interfaces"
+    },
+    "consulting": {
+      "title": "Consulting",
+      "description": "Expert technical consulting and architecture"
+    }
+  },
+  "serviceDetail": {
+    "basePriceLabel": "Base price"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us",
+    "pageHeading": "Get a Quote for Your Project",
+    "pageSubtitle": "Tell us about your project and we'll connect with you within 24 hours.",
+    "labelFullName": "Full Name",
+    "placeholderFullName": "Jan de Vries",
+    "labelEmail": "Email Address",
+    "placeholderEmail": "jan@example.nl",
+    "labelPhone": "Phone Number",
+    "placeholderPhone": "+31612345678",
+    "labelServiceType": "Service Type",
+    "placeholderServiceType": "Select a service",
+    "serviceOptions": [
+      "Dakdekkersdiensten",
+      "Loodgieterswerk",
+      "Elektriciteitswerk",
+      "Timmerwerk",
+      "Schilderwerk",
+      "Reparatie & Onderhoud",
+      "Overige"
+    ],
+    "labelAddress": "Project Address",
+    "placeholderAddress": "Kouwstraat 121, Suite 180, Amsterdam",
+    "labelDetails": "Project Details",
+    "placeholderDetails": "Describe your project, timeline, and any specific requirements",
+    "labelUpload": "Reference Images",
+    "uploadCta": "Click to upload",
+    "uploadOr": "or drag and drop",
+    "uploadHint": "PNG, JPG or PDF (max 5 images, 5MB each)",
+    "fileErrorMax": "Maximum 5 files allowed",
+    "submitButton": "Send Request",
+    "submitButtonLoading": "Sending...",
+    "successMessage": "Request sent successfully! We'll contact you soon.",
+    "errorRequired": "Please fill in all required fields",
+    "errorSubmit": "Failed to send request. Please try again.",
+    "securityNote": "Your information is secure and will never be shared.",
+    "fastTitle": "Fast Response",
+    "fastDesc": "We respond to inquiries within 24 hours to discuss your project needs.",
+    "expertTitle": "Expert Team",
+    "expertDesc": "Our experienced professionals provide tailored solutions for your home.",
+    "pricingTitle": "Fair Pricing",
+    "pricingDesc": "Transparent pricing with no hidden fees. Get accurate quotes upfront."
+  },
+  "language": {
+    "switchTo": "Switch language",
+    "en": "EN",
+    "nl": "NL"
+  },
+  "admin": {
+    "dashboard": {
+      "header": {
+        "title": "Dashboard",
+        "subtitle": "Welcome back! Here's your performance overview."
+      },
+      "stats": [],
+      "campaign": {
+        "title": "Active Campaign",
+        "description": "Monitor your ongoing giveaway campaign",
+        "status": "Active",
+        "image": {
+          "alt": "Campaign"
+        },
+        "soldLabel": "Progress",
+        "soldPercent": "65%",
+        "progress": 65,
+        "soldMeta": "125 / 192 tickets sold",
+        "daysLeft": "12 days left",
+        "analyticsCta": "View Details"
+      },
+      "quickActions": {
+        "title": "Quick Actions",
+        "items": [
+          {
+            "id": "create",
+            "label": "Create Giveaway",
+            "icon": "CirclePlus",
+            "variant": "primary"
+          },
+          {
+            "id": "voucher",
+            "label": "Manage Vouchers",
+            "icon": "Download",
+            "variant": "secondary"
+          },
+          {
+            "id": "export",
+            "label": "Export Data",
+            "icon": "Download",
+            "variant": "ghost"
+          }
+        ],
+        "tip": {
+          "label": "Pro Tip",
+          "text": "Keep your campaigns updated for better engagement"
+        }
+      },
+      "leadsTable": {
+        "title": "Recent Leads",
+        "viewAll": "View all",
+        "columns": ["Name", "Service Type", "Date", "Status", "Actions"],
+        "mobileLabels": {
+          "date": "Date",
+          "status": "Status"
+        },
+        "rows": []
+      },
+      "statusOptions": [
+        {
+          "value": "Pending",
+          "tone": "warning",
+          "textColor": "text-[#D97706]"
+        },
+        {
+          "value": "In Progress",
+          "tone": "info",
+          "textColor": "text-[#3B82F6]"
+        },
+        {
+          "value": "Completed",
+          "tone": "success",
+          "textColor": "text-[#22C55E]"
+        }
+      ],
+      "export": {
+        "csvHeaders": ["Name", "Email", "Service", "Date", "Status"],
+        "fileNamePrefix": "leads"
+      }
+    },
+    "coupons": {
+      "header": {
+        "title": "Coupons Management",
+        "subtitle": "View and manage all your coupons and transactions"
+      },
+      "stats": [
+        {
+          "id": "totalDiscountsApplied",
+          "label": "Total Discounts Applied",
+          "value": "€0",
+          "trend": "",
+          "icon": "Wallet"
+        },
+        {
+          "id": "activeVouchers",
+          "label": "Active Vouchers",
+          "value": "0",
+          "trend": "",
+          "icon": "Ticket"
+        },
+        {
+          "id": "averageDiscountPerOrder",
+          "label": "Average Discount per Order",
+          "value": "€0",
+          "trend": "",
+          "icon": "Wallet"
+        },
+        {
+          "id": "ordersUsingVouchers",
+          "label": "Orders Using Vouchers",
+          "value": "0",
+          "trend": "",
+          "icon": "Users"
+        }
+      ],
+      "filters": {
+        "title": "Filters:",
+        "clear": "Clear All",
+        "items": [
+          {
+            "id": 2,
+            "label": "All status",
+            "type": "select"
+          },
+          {
+            "id": 3,
+            "label": "Datumbereik",
+            "type": "date"
+          },
+          {
+            "id": 4,
+            "label": "Amount Range",
+            "type": "select"
+          },
+          {
+            "id": 5,
+            "label": "User Type",
+            "type": "select"
+          }
+        ]
+      },
+      "table": {
+        "columns": ["Coupon No", "Participant", "Instagram", "Purchase Date", "Qty", "Total", "Status", "Actions"],
+        "rows": [
+          {
+            "id": 1,
+            "couponNo": "#CPX001",
+            "participant": {
+              "name": "John Anderson",
+              "initials": "JA"
+            },
+            "instagram": "@john_design",
+            "purchaseDate": "Jan 15, 2024",
+            "qty": 3,
+            "total": "€150",
+            "status": "Paid",
+            "statusTone": "paid",
+            "actionAria": "Actions for coupon CPX001"
+          },
+          {
+            "id": 2,
+            "couponNo": "#CPX002",
+            "participant": {
+              "name": "Sarah Mitchell",
+              "initials": "SM"
+            },
+            "instagram": "@sarah_m",
+            "purchaseDate": "Jan 14, 2024",
+            "qty": 2,
+            "total": "€100",
+            "status": "Paid",
+            "statusTone": "paid",
+            "actionAria": "Actions for coupon CPX002"
+          },
+          {
+            "id": 3,
+            "couponNo": "#CPX003",
+            "participant": {
+              "name": "Michael Chen",
+              "initials": "MC"
+            },
+            "instagram": "@michael.chen",
+            "purchaseDate": "Jan 13, 2024",
+            "qty": 1,
+            "total": "€50",
+            "status": "Refunded",
+            "statusTone": "refunded",
+            "actionAria": "Actions for coupon CPX003"
+          },
+          {
+            "id": 4,
+            "couponNo": "#CPX004",
+            "participant": {
+              "name": "Emma Rodriguez",
+              "initials": "ER"
+            },
+            "instagram": "@emma_r",
+            "purchaseDate": "Jan 12, 2024",
+            "qty": 4,
+            "total": "€200",
+            "status": "Paid",
+            "statusTone": "paid",
+            "actionAria": "Actions for coupon CPX004"
+          },
+          {
+            "id": 5,
+            "couponNo": "#CPX005",
+            "participant": {
+              "name": "David Thompson",
+              "initials": "DT"
+            },
+            "instagram": "@david.t",
+            "purchaseDate": "Jan 11, 2024",
+            "qty": 2,
+            "total": "€100",
+            "status": "Paid",
+            "statusTone": "paid",
+            "actionAria": "Actions for coupon CPX005"
+          },
+          {
+            "id": 6,
+            "couponNo": "#CPX006",
+            "participant": {
+              "name": "Lisa Wang",
+              "initials": "LW"
+            },
+            "instagram": "@lisa_wang_art",
+            "purchaseDate": "Jan 10, 2024",
+            "qty": 3,
+            "total": "€150",
+            "status": "Paid",
+            "statusTone": "paid",
+            "actionAria": "Actions for coupon CPX006"
+          }
+        ]
+      }
+    }
+  }
+}
